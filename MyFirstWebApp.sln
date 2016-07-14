@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstWebApp", "MyFirstWebApp\MyFirstWebApp.csproj", "{33AFC70A-B4C9-4DFD-BCA6-07E5ADBC2DB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{2A01D7A9-252F-4503-B82A-368B0872934C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{F1ABA6FA-0832-43F7-AC34-58FE78312F0A}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\ConfigureWebServer.ps1 = PublishScripts\Scripts\ConfigureWebServer.ps1
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{9E5BA86E-0562-4A01-B120-DCA66DF86615}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\MyFirstWebApp.json = PublishScripts\Templates\MyFirstWebApp.json
+		PublishScripts\Templates\MyFirstWebApp.param.dev.json = PublishScripts\Templates\MyFirstWebApp.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33AFC70A-B4C9-4DFD-BCA6-07E5ADBC2DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33AFC70A-B4C9-4DFD-BCA6-07E5ADBC2DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33AFC70A-B4C9-4DFD-BCA6-07E5ADBC2DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33AFC70A-B4C9-4DFD-BCA6-07E5ADBC2DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1ABA6FA-0832-43F7-AC34-58FE78312F0A} = {2A01D7A9-252F-4503-B82A-368B0872934C}
+		{9E5BA86E-0562-4A01-B120-DCA66DF86615} = {2A01D7A9-252F-4503-B82A-368B0872934C}
+	EndGlobalSection
+EndGlobal
